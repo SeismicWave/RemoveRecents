@@ -9,6 +9,7 @@
 #import "RemoveRecents.h"
 
 %hook SBAppSwitcherController
+// iOS 6
 // iOS 5
 - (id)_applicationIconsExceptTopApp {
 	id appList = %orig;
